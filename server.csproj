@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="halcondotnet">
+      <HintPath>..\..\..\..\..\..\..\Program Files\MVTec\HALCON-20.11-Progress\bin\dotnet35\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="iRoVisionCore">
+      <HintPath>..\..\..\zivid-csharp-samples\source\Applications\Advanced\HandEyeCalibration\iRoVision\iRoVisionCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ZividCoreNET">
+      <HintPath>..\..\..\zivid-csharp-samples\build\Release\x64\ZividCoreNET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
